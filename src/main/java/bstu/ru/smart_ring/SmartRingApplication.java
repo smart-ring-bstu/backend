@@ -7,7 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SmartRingApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmartRingApplication.class, args);
+		SpringApplication.run(SmartRingApplication.class, args)
 	}
 
 }
