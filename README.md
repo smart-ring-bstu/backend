@@ -23,6 +23,7 @@ https://www.jetbrains.com/idea/download
 git clone https://github.com/smart-ring-bstu/backend.git
 ```
 
+
 В IDEA: **File → Open**, выберите папку `backend`. Зависимости Maven подтянутся автоматически.
 
 ### Шаг 3. Выберите JDK 21
