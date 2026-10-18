@@ -9,7 +9,6 @@ class SmartRingApplicationTests {
 
 	@Test
 	void contextLoads() {
-		Assertions.assertTrue(false);
 	}
 
 }
