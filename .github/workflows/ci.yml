@@ -16,5 +16,9 @@ jobs:
           java-version: 21
           cache: maven
 
-      - name: Build and test
+      - name: Build, test and check code smells
         run: ./mvnw -B verify
+
+      - name: Annotate PMD findings
+        if: failure() && hashFiles('target/pmd.xml') != ''
+        run: python3 .github/scripts/annotate_pmd.py
