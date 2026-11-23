@@ -5,4 +5,8 @@ class PmdReviewExample {
         int previousCount = 0;
         return samples.length;
     }
+
+    private boolean hasSamples(int[] samples) {
+        return samples.length > 0;
+    }
 }
