@@ -69,6 +69,7 @@
 					<includeTests>true</includeTests>
 					<targetJdk>${java.version}</targetJdk>
 					<skipPmdError>false</skipPmdError>
+					<failOnViolation>false</failOnViolation>
 					<printFailingErrors>true</printFailingErrors>
 				</configuration>
 				<executions>

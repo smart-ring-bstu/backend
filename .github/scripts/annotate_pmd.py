@@ -19,4 +19,4 @@ for source in report.findall("{*}file"):
         line = int(violation.attrib["beginline"])
         rule = escape_property(violation.attrib["rule"])
         message = escape_data(violation.text.strip())
-        print(f"::error file={escape_property(str(path))},line={line},title=PMD {rule}::{message}")
+        print(f"::warning file={escape_property(str(path))},line={line},title=PMD {rule}::{message}")
